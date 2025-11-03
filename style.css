@@ -111,7 +111,6 @@ padding: 1rem;
         flex-direction: column;
         align-items: stretch;
         text-align: center;
-		padding: 1rem 0; 
     }
 
     nav ul {
@@ -151,8 +150,6 @@ padding: 1rem;
 	.logo img {
 	width: clamp(90px, 18vw, 150px);
     height: auto;
-    display: inline-block;
-    vertical-align: middle;
 	}
 }
 
@@ -163,5 +160,6 @@ padding: 1rem;
 
 
 }
+
 
 
