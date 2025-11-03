@@ -36,7 +36,8 @@ background: #fff;
 }
 
 .logo img {
-height: 120px;
+  height: clamp(90px, 18vw, 150px);
+  width: auto;
 }
 
 nav ul {
@@ -147,12 +148,6 @@ padding: 1rem;
         font-size: 2rem;
     }
 
-	.logo img {
-	width: clamp(90px, 18vw, 150px);
-    height: auto;
-	}
-}
-
 @media (max-width: 1200px) {
   nav a {
     font-size: 2rem; /* trochę mniejsze litery na laptopach */
@@ -160,6 +155,7 @@ padding: 1rem;
 
 
 }
+
 
 
 
