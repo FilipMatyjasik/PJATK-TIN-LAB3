@@ -125,7 +125,16 @@ padding: 1rem;
     nav li {
         border-bottom: 1px solid #111;
         padding: 0.5rem 0;
+		width: 100%;
+		text-align: center;
     }
+
+	nav a {
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+  	}
 
     main {
         grid-template-columns: 1fr;
@@ -148,4 +157,5 @@ padding: 1rem;
   nav a {
     font-size: 2rem; /* trochę mniejsze litery na laptopach */
   }
+
 }
