@@ -147,6 +147,7 @@ padding: 1rem;
     nav a {
         font-size: 2rem;
     }
+}
 
 @media (max-width: 1200px) {
   nav a {
@@ -155,6 +156,7 @@ padding: 1rem;
 
 
 }
+
 
 
 
