@@ -111,10 +111,14 @@ padding: 1rem;
         flex-direction: column;
         align-items: stretch;
         text-align: center;
+		padding: 1rem 0; 
     }
 
 	.logo img {
-	height: 120px;
+	width: clamp(90px, 18vw, 150px); /* elastyczna szerokość: min 90px, max 150px */
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
 	}
 
     nav ul {
@@ -163,3 +167,4 @@ padding: 1rem;
 
 
 }
+
