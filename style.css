@@ -114,13 +114,6 @@ padding: 1rem;
 		padding: 1rem 0; 
     }
 
-	.logo img {
-	width: clamp(90px, 18vw, 150px); /* elastyczna szerokość: min 90px, max 150px */
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-	}
-
     nav ul {
         flex-direction: column;
         width: 100%;
@@ -155,9 +148,12 @@ padding: 1rem;
         font-size: 2rem;
     }
 
-    .logo img {
-        height: 60px;
-    }
+	.logo img {
+	width: clamp(90px, 18vw, 150px);
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -167,4 +163,5 @@ padding: 1rem;
 
 
 }
+
 
