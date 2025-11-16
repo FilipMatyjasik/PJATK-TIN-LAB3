@@ -3,21 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
- 
-.open-sans-body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 
 html, body {
 	height: 100%;
 }
 
 body {
+font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   line-height: 1.6;
   color: #111;
   background-color: #f2f2f2;
@@ -156,6 +153,7 @@ padding: 1rem;
 
 
 }
+
 
 
 
